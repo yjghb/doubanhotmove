@@ -112,7 +112,7 @@
            
         // }
         
-        url = "http://api.douban.com/v2/movie/in_theaters?"+'start='+startnum+"&count="+num;
+        url = "https://api.douban.com/v2/movie/in_theaters?"+'start='+startnum+"&count="+num;
         startnum += num;
 
         $.ajax({
@@ -137,7 +137,7 @@
         // alert(11)
         
         startnum += num;
-        url = "http://api.douban.com/v2/movie/top250?"+'start='+startnum+"&count="+num;
+        url = "https://api.douban.com/v2/movie/top250?"+'start='+startnum+"&count="+num;
        $.ajax({
             type:'get',
             url: url,
